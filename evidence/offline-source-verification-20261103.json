@@ -1,0 +1,37 @@
+{
+  "kind": "fresh-offline-source-verification",
+  "checked_at": "2026-11-03T11:59:24.062Z",
+  "scope": "Fresh npm install, tests, build and default fixture bench in this standalone contribution excerpt. Historical provider evidence is separate.",
+  "commands": [
+    {
+      "command": "npm ci --no-audit --no-fund",
+      "exit_code": 0,
+      "packages_added": 87
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "test_files_passed": 4,
+      "tests_passed": 70
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "typecheck_passed": true,
+      "bundle_created": true
+    },
+    {
+      "command": "npm run bench",
+      "exit_code": 0,
+      "mode": "fixture",
+      "provider_requests": 0,
+      "provider_reported_cost_usd": 0,
+      "all_rows_passed": true
+    }
+  ],
+  "model_inference_requests": 0,
+  "phone_calls": 0,
+  "remote_publication": false,
+  "registry_downloads": "npm dependency installation only",
+  "source_code_changed": false
+}

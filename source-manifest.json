@@ -1,0 +1,221 @@
+{
+  "upstream_commit": "9975b9bbf028b0af6df714c72e4d4f814e15dace",
+  "upstream_visibility": "private",
+  "scope": "Exact previously reviewed October 29 code excerpt and synthetic bench. Later phone and isolated extraction summaries are evidence only; private phone and later extraction adapters are excluded.",
+  "source_files": [
+    {
+      "path": "src/lib/memory/museClient.ts",
+      "upstream_path": "src/lib/memory/museClient.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "3a850cff0639953af32b649de982c4a41895bc3bb70f4411aa178ea7a2bc8310",
+      "export_sha256": "3a850cff0639953af32b649de982c4a41895bc3bb70f4411aa178ea7a2bc8310",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "4c5f8cbf48d6d1268985a703c2daf8763c046089696f9fe8404e1bcf8b0d946d",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/museRecall.ts",
+      "upstream_path": "src/lib/memory/museRecall.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "57521b2b2f566a2528932c4555df126eaf76aa7daab10fb776506edd3ba9136a",
+      "export_sha256": "57521b2b2f566a2528932c4555df126eaf76aa7daab10fb776506edd3ba9136a",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "57521b2b2f566a2528932c4555df126eaf76aa7daab10fb776506edd3ba9136a",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/museShadow.ts",
+      "upstream_path": "src/lib/memory/museShadow.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "ed43cc398dfe9b1ffb274bd70c292d8fb0e5f681638dc76b885fafff4ca65b22",
+      "export_sha256": "ed43cc398dfe9b1ffb274bd70c292d8fb0e5f681638dc76b885fafff4ca65b22",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "f3fc94062973b8afb23f9436f7b6207a1de70e0466998c056d501fa31cd1047a",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/museGate.ts",
+      "upstream_path": "src/lib/memory/museGate.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "621e78ec7d5f6933e2048776d72519bbad50457a3c2771be54216fe7375b0c1a",
+      "export_sha256": "621e78ec7d5f6933e2048776d72519bbad50457a3c2771be54216fe7375b0c1a",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "54530f165c696d0df5ac1a8132c4e24f489100fcefe31fcb2fc13587be8ff44c",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/museShadow.test.ts",
+      "upstream_path": "src/lib/memory/museShadow.test.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "77b363eb808d08e87eb58ceb43674a6c975f690ef5053d1d079e807b74309bc3",
+      "export_sha256": "77b363eb808d08e87eb58ceb43674a6c975f690ef5053d1d079e807b74309bc3",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "4c6bb5c2ac3a6931a09e84b8452d737aa2cac7d7ef1c577a6b17e195f0a017dd",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/museRecall.test.ts",
+      "upstream_path": "src/lib/memory/museRecall.test.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "86c1558adc95ae49f852364eed52457339d68d63ce8f92404ceb44cf127e718f",
+      "export_sha256": "86c1558adc95ae49f852364eed52457339d68d63ce8f92404ceb44cf127e718f",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "86c1558adc95ae49f852364eed52457339d68d63ce8f92404ceb44cf127e718f",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/evals/goldenMemoryScenarios.ts",
+      "upstream_path": "src/lib/evals/goldenMemoryScenarios.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "31babf1447c0b497945c046b3a2f671df3c8cbc09c29482417d52ebacdca33f8",
+      "export_sha256": "31babf1447c0b497945c046b3a2f671df3c8cbc09c29482417d52ebacdca33f8",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "b427da242c6c6d3e42437d28b888059d586df69ea944f8c2622919524dcc93d3",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/evals/goldenMemoryScenarios.test.ts",
+      "upstream_path": "src/lib/evals/goldenMemoryScenarios.test.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "b833a9f2946b8a52c31bee2666a14f9b1b3e8dccca3affd07fc862e0fcfa29f7",
+      "export_sha256": "b833a9f2946b8a52c31bee2666a14f9b1b3e8dccca3affd07fc862e0fcfa29f7",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "a4860afd6f5ea63abe2450fe0f266b7ff176b43b9275ad4e9351bb9203909d27",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "scripts/evals/run-golden-memory-recall.ts",
+      "upstream_path": "scripts/evals/run-golden-memory-recall.ts",
+      "kind": "exact-byte-copy",
+      "upstream_sha256": "46b01b86e7a7a244eb2478a8ae621ce8ecc2e1ef0dfd224f0ac5e79c44b2e0e5",
+      "export_sha256": "46b01b86e7a7a244eb2478a8ae621ce8ecc2e1ef0dfd224f0ac5e79c44b2e0e5",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "46b01b86e7a7a244eb2478a8ae621ce8ecc2e1ef0dfd224f0ac5e79c44b2e0e5",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/types.ts",
+      "upstream_path": "src/lib/memory/types.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "FactCategory",
+        "FactProvenance",
+        "FactStatus",
+        "MemoryMode",
+        "CallerMemoryFact",
+        "OpenLoop and extraction result/schema contracts"
+      ],
+      "upstream_sha256": "fdd1cb0bfcedb2ce43fa51aa42be588783f66d387149cba0b009e0465bdc6fad",
+      "export_sha256": "74dcce8cd550faf75625c40c32a0febd0b2baa1378a71165c82f365a7906f634",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "7b37f7e4dda92ba0dc8e48affa90fff104092df1c36efd25ab77642d91ea29ef",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/memoryFlags.ts",
+      "upstream_path": "src/lib/memory/memoryFlags.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "three Muse-specific default-off flag functions; incumbent feature flags excluded"
+      ],
+      "upstream_sha256": "3efb78768f7b6923ccbcbc09c306513cf48c0f841448baa079db3dc452868216",
+      "export_sha256": "c370fab855eb19ca23672991eb1bae9b2749f4a6a000d2270c39574a47b1d374",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "b0bfca715c1804ea872d006300382af400a92fb7b9114f403d89ba615ef8894a",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/types/vapiEval.ts",
+      "upstream_path": "src/types/vapiEval.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "judge plans and eval message contracts; API and database record contracts excluded"
+      ],
+      "upstream_sha256": "50809d7107dd04cdf792f84413ee299b7fd2314d330655ff6d6802e007d75551",
+      "export_sha256": "fa4938189979198608d832d1c710e9bd3423133d98ef1b0a89dea127367648e3",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "c281b196bc63c4829788aa54da66a4b9e2807b961404c61e3a33844d06775606",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/vapi/evalRunner.ts",
+      "upstream_path": "src/lib/vapi/evalRunner.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "buildAIJudgePlan only; pure metadata constructor; no provider client/API calls"
+      ],
+      "upstream_sha256": "e873fb122706a0227410fae3a42260f65edac8ce6d605d90900406816b8ea666",
+      "export_sha256": "a99ff5aac1ea37ec5a6b9696226b65d8e6e3ec9d8e042c899241cc7e4e549644",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "16d8a64408770cc763f1e09145b2fb2ff6a752fbd8aa1725e0aa30a1254b86f1",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/constants/categoryEvalTemplates.ts",
+      "upstream_path": "src/constants/categoryEvalTemplates.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "EvalScenario interface only"
+      ],
+      "upstream_sha256": "a71326b56d930ef45a4d3d1f1b82c4ebf946d1348633d87a57f877f47bc291b3",
+      "export_sha256": "0b65fba3bf4e363f2f2b012e09571dde80b23e3cc87df95d9f45b2ee8aa5da05",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "9f1f87fc29b3fa4148fd6044c4a20d467c75db1e4e923d416e18ff1f74ebd0ab",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    },
+    {
+      "path": "src/lib/memory/consolidationContract.ts",
+      "upstream_path": "src/lib/memory/consolidation.ts",
+      "kind": "selected-contracts-or-pure-helper",
+      "selections": [
+        "exact consolidation response schemas; one export declaration added for standalone tests"
+      ],
+      "upstream_sha256": "37384d819d865ff39887ae442ba6caef3c58fc13ddb142ef268771ce3f732b5d",
+      "export_sha256": "f182d077fd5cefbc8d2cce2a98c68a1b7e8f94126ad1dd9a409551f769bd70e6",
+      "line_endings": "LF",
+      "upstream_sha256_kind": "checked-out-file-bytes",
+      "upstream_git_blob_sha256": "cc837d2694f6a4edf9c8c3cacfa390e4f7dd422d48e8d5c55425fdc722975392",
+      "lf_normalized_content_matches_reviewed_git_blob": true
+    }
+  ],
+  "saved_assets": [
+    {
+      "path": "evidence/golden-recall-fixture-results.json",
+      "kind": "exact-saved-synthetic-evidence",
+      "sha256": "f87e0d8f6be68d0cb6aee28021c64f6d2af5dafd520bf9e4907d23eb1b57ef2c"
+    },
+    {
+      "path": "evidence/golden-recall-provider-results.json",
+      "kind": "exact-saved-synthetic-evidence",
+      "sha256": "5d94d940a769bc81af586d435f330b41f2fecb35342c6fc9e6241a7749425895"
+    },
+    {
+      "path": "evidence/openrouter-generation-readback.json",
+      "kind": "exact-saved-synthetic-evidence",
+      "sha256": "d5c7fe82a276c57f0687aa08c651410807783b67f0402696542deb9a3eccd0bc"
+    },
+    {
+      "path": "evidence/staged-phone-recall-20261102.json",
+      "kind": "sanitized-derived-summary-of-later-private-phone-test",
+      "sha256": "ff87243ce1b29e30fa3ae637c5417f6646b2840ece9e69f893f3e65dfac1b892",
+      "original_receipt_sha256": "3b31dce9326485e79bcd68e9cf65fc92fd968b937146521d360468e9de376243"
+    }
+  ],
+  "excluded": [
+    "Next.js routes",
+    "Supabase adapters and clients",
+    "telephony/carrier integrations",
+    "database migrations",
+    "application configuration",
+    "credentials",
+    "customer records",
+    "private full-product source",
+    "licenses"
+  ],
+  "hash_notes": "upstream_sha256 hashes checked-out file bytes, including Windows CRLF when present. upstream_git_blob_sha256 hashes immutable Git blob bytes. LF-normalized source is checked against the reviewed commit; exact copies preserve checkout bytes."
+}

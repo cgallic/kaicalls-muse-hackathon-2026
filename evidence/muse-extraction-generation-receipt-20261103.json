@@ -1,0 +1,21 @@
+{
+  "kind": "reduced-independent-generation-receipt",
+  "checked_at": "2026-11-03T05:33:47.572621+00:00",
+  "http_status": 200,
+  "transport": "OpenRouter",
+  "model": "meta/muse-wonder-20261012",
+  "provider": "Meta",
+  "total_cost_usd": 0.013008,
+  "tokens_prompt": 986,
+  "tokens_completion": 318,
+  "native_tokens_prompt": 982,
+  "native_tokens_completion": 454,
+  "native_tokens_reasoning": 121,
+  "original_receipt_sha256": "e18b960adb52cda029d344e5b9415247634fcf17fec415d89c0d104b8bbf40d1",
+  "omitted": [
+    "upstream request ID",
+    "generation ID",
+    "credentials",
+    "operational identifiers"
+  ]
+}

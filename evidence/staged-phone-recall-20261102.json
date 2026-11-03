@@ -1,0 +1,39 @@
+{
+  "kind": "sanitized-summary-of-later-staged-phone-test",
+  "observed_at": "2026-11-02T13:58:42.550376+00:00",
+  "original_receipt_sha256": "3b31dce9326485e79bcd68e9cf65fc92fd968b937146521d360468e9de376243",
+  "source_scope": "Later private integration test; not reproducible from the exported October 29 source alone.",
+  "fact_origin": "Manually imported synthetic/test facts from an earlier staged call; not automatic extraction or learning.",
+  "question_topic": "printer",
+  "stored_facts": [
+    "Epson XP-4100 prints from laptop but not iPad.",
+    "Printer and iPad already restarted."
+  ],
+  "selected_fact_count": 2,
+  "source_reference_count": 2,
+  "spoken_use_verified_from": "Provider transcript after recall tool result; audio listening is not asserted by this summary.",
+  "recall_latency_ms": 2288,
+  "model": "meta/muse-wonder-20261012",
+  "generation_id": "gen-1793627722-xquKiS13GIW4CakNQzfR",
+  "model_cost_usd": 0.003656,
+  "both_phone_legs_cost_usd": "0.1987",
+  "this_test_total_usd": "0.202356",
+  "caller_configuration_restored": true,
+  "both_legs_ended": true,
+  "not_established": [
+    "automatic extraction",
+    "automatic learning",
+    "transcript entailment",
+    "general recall accuracy",
+    "production readiness",
+    "matched incumbent comparison"
+  ],
+  "omitted": [
+    "phone numbers",
+    "business and agent identifiers",
+    "call and fact identifiers",
+    "raw prompts",
+    "credentials",
+    "signed media URLs"
+  ]
+}

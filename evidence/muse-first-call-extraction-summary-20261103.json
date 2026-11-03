@@ -1,0 +1,38 @@
+{
+  "kind": "sanitized-summary-of-isolated-owned-test-call-extraction-replay",
+  "source_scope": "Later private extraction path; not reproducible from this October 29 contribution excerpt alone.",
+  "business_id": "synthetic-business-printer-example",
+  "lead_id": "synthetic-caller-printer-example",
+  "source_call_id": "synthetic-call-printer-first",
+  "identifier_policy": "All example scope identifiers in this summary are synthetic replacements.",
+  "input": "Saved first human test-call transcript; raw transcript intentionally omitted.",
+  "output_kind": "Sanitized semantic summary, not the verbatim model response.",
+  "facts_retained": [
+    "The caller uses an Android phone, correcting an earlier reference to an iPad.",
+    "An Epson printer works from the computer, while printing from the phone is unresolved.",
+    "The caller is unsure whether the printer is connected to Wi-Fi or shares the phone’s network.",
+    "The caller is unsure whether the Epson iPrint app is installed."
+  ],
+  "goal": "Print from an Android phone to the Epson printer.",
+  "schema_validated": true,
+  "elapsed_ms": 3440,
+  "model": "meta/muse-wonder-20261012",
+  "transport": "OpenRouter Chat Completions",
+  "reasoning_effort": "minimal",
+  "model_requests": 1,
+  "independently_reconciled_cost_usd": 0.013008,
+  "cost_receipt": "muse-extraction-generation-receipt-20261103.json",
+  "live_memory_writes": 0,
+  "live_muse_extraction_or_continuity_proven": false,
+  "direct_meta_model_api_used": false,
+  "baseline_comparison": "Persisted incumbent facts were available; original raw incumbent output was not available. No matched quality improvement is claimed.",
+  "omitted": [
+    "caller name",
+    "real business/caller/call/fact identifiers",
+    "raw transcript",
+    "full legacy replay receipt",
+    "credentials",
+    "private hosts",
+    "private filesystem paths"
+  ]
+}

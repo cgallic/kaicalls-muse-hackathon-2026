@@ -1,0 +1,163 @@
+{
+  "format_version": 1,
+  "upstream_commit": "9975b9bbf028b0af6df714c72e4d4f814e15dace",
+  "scope": "Standalone memory contribution excerpt; private production adapters excluded.",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 41,
+      "sha256": "36df68ffa0c0b677a53aa8b96d3aea6da525ba470a51cb305e51194e24c76b69"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 3816,
+      "sha256": "1aacda96986d61567f6e5a13756f62a9387cd9663cb9ae4070bcf4c804eecbd7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5095,
+      "sha256": "b7bc62b556ed70b1111900806e2bdcc8d18476b0d86685d6924fc527443b1f45"
+    },
+    {
+      "path": "evidence/golden-recall-fixture-results.json",
+      "bytes": 14598,
+      "sha256": "f87e0d8f6be68d0cb6aee28021c64f6d2af5dafd520bf9e4907d23eb1b57ef2c"
+    },
+    {
+      "path": "evidence/golden-recall-provider-results.json",
+      "bytes": 6790,
+      "sha256": "5d94d940a769bc81af586d435f330b41f2fecb35342c6fc9e6241a7749425895"
+    },
+    {
+      "path": "evidence/muse-extraction-generation-receipt-20261103.json",
+      "bytes": 616,
+      "sha256": "fac5107c019db6f28d53ff2deb7f1ed63be2d16b6e696c640e85fee2c7dcf72f"
+    },
+    {
+      "path": "evidence/muse-first-call-extraction-summary-20261103.json",
+      "bytes": 1878,
+      "sha256": "aa7ac23329f3722304fc4f781a04ff08a9890a25098889ee1e07428f21f02c13"
+    },
+    {
+      "path": "evidence/offline-source-verification-20261103.json",
+      "bytes": 997,
+      "sha256": "2057b4eb0dead4d40cc3de3d2f4b374a87905a56b1f1a1a5f63cc69771447f17"
+    },
+    {
+      "path": "evidence/openrouter-generation-readback.json",
+      "bytes": 5084,
+      "sha256": "d5c7fe82a276c57f0687aa08c651410807783b67f0402696542deb9a3eccd0bc"
+    },
+    {
+      "path": "evidence/staged-phone-recall-20261102.json",
+      "bytes": 1470,
+      "sha256": "ff87243ce1b29e30fa3ae637c5417f6646b2840ece9e69f893f3e65dfac1b892"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 78483,
+      "sha256": "3c8098d2dab562f32950d436d3d14cde5be7246b0fda69ff4ff7c8ae12318919"
+    },
+    {
+      "path": "package.json",
+      "bytes": 782,
+      "sha256": "654d3bed2d7ad62827fcdc6cbc95a0ed205fad0a36b6ffc3774c0226891d8423"
+    },
+    {
+      "path": "scripts/evals/run-golden-memory-recall.ts",
+      "bytes": 2052,
+      "sha256": "46b01b86e7a7a244eb2478a8ae621ce8ecc2e1ef0dfd224f0ac5e79c44b2e0e5"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 11252,
+      "sha256": "8ae33f5364e7f60bdb30e8ee74da933b96340a165a7b86a69b123adbc538039a"
+    },
+    {
+      "path": "src/constants/categoryEvalTemplates.ts",
+      "bytes": 235,
+      "sha256": "0b65fba3bf4e363f2f2b012e09571dde80b23e3cc87df95d9f45b2ee8aa5da05"
+    },
+    {
+      "path": "src/lib/evals/goldenMemoryScenarios.test.ts",
+      "bytes": 4427,
+      "sha256": "b833a9f2946b8a52c31bee2666a14f9b1b3e8dccca3affd07fc862e0fcfa29f7"
+    },
+    {
+      "path": "src/lib/evals/goldenMemoryScenarios.ts",
+      "bytes": 21817,
+      "sha256": "31babf1447c0b497945c046b3a2f671df3c8cbc09c29482417d52ebacdca33f8"
+    },
+    {
+      "path": "src/lib/memory/consolidationContract.ts",
+      "bytes": 877,
+      "sha256": "f182d077fd5cefbc8d2cce2a98c68a1b7e8f94126ad1dd9a409551f769bd70e6"
+    },
+    {
+      "path": "src/lib/memory/memoryFlags.ts",
+      "bytes": 638,
+      "sha256": "c370fab855eb19ca23672991eb1bae9b2749f4a6a000d2270c39574a47b1d374"
+    },
+    {
+      "path": "src/lib/memory/museClient.ts",
+      "bytes": 5053,
+      "sha256": "3a850cff0639953af32b649de982c4a41895bc3bb70f4411aa178ea7a2bc8310"
+    },
+    {
+      "path": "src/lib/memory/museConsolidationShadow.test.ts",
+      "bytes": 3656,
+      "sha256": "05055017f199e0f7066feb5900941d353b1b9c8568183dd40385434fffb384d2"
+    },
+    {
+      "path": "src/lib/memory/museGate.ts",
+      "bytes": 518,
+      "sha256": "621e78ec7d5f6933e2048776d72519bbad50457a3c2771be54216fe7375b0c1a"
+    },
+    {
+      "path": "src/lib/memory/museRecall.test.ts",
+      "bytes": 9193,
+      "sha256": "86c1558adc95ae49f852364eed52457339d68d63ce8f92404ceb44cf127e718f"
+    },
+    {
+      "path": "src/lib/memory/museRecall.ts",
+      "bytes": 4543,
+      "sha256": "57521b2b2f566a2528932c4555df126eaf76aa7daab10fb776506edd3ba9136a"
+    },
+    {
+      "path": "src/lib/memory/museShadow.test.ts",
+      "bytes": 8465,
+      "sha256": "77b363eb808d08e87eb58ceb43674a6c975f690ef5053d1d079e807b74309bc3"
+    },
+    {
+      "path": "src/lib/memory/museShadow.ts",
+      "bytes": 3677,
+      "sha256": "ed43cc398dfe9b1ffb274bd70c292d8fb0e5f681638dc76b885fafff4ca65b22"
+    },
+    {
+      "path": "src/lib/memory/types.ts",
+      "bytes": 3708,
+      "sha256": "74dcce8cd550faf75625c40c32a0febd0b2baa1378a71165c82f365a7906f634"
+    },
+    {
+      "path": "src/lib/vapi/evalRunner.ts",
+      "bytes": 413,
+      "sha256": "a99ff5aac1ea37ec5a6b9696226b65d8e6e3ec9d8e042c899241cc7e4e549644"
+    },
+    {
+      "path": "src/types/vapiEval.ts",
+      "bytes": 2290,
+      "sha256": "fa4938189979198608d832d1c710e9bd3423133d98ef1b0a89dea127367648e3"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 526,
+      "sha256": "be178ccca4f363573b3bc02ee527daa44f4c9a397cc427066a7a5f2213042f29"
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 201,
+      "sha256": "7d6ed74570d65b481211a303c6e013f01c1153467920fd7af833758bab193d38"
+    }
+  ]
+}
